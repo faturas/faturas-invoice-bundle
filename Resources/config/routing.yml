@@ -1,0 +1,3 @@
+butler_invoice_homepage:
+    path:     /
+    defaults: { _controller: ButlerInvoiceBundle:Default:index }

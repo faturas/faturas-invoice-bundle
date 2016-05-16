@@ -1,0 +1,20 @@
+Faturas\Invoice\Domain\Invoice:
+    type: entity
+    id:
+        id:
+            type: integer
+            generator:
+                strategy: AUTO
+    fields:
+        invoiceNumber:
+            type: integer
+        VATPercentage:
+            type: float
+            column: vat_percentage
+        createdAt:
+            type: datetime
+        sentAt:
+            type: datetime
+    embedded:
+        paymentTerm:
+            class: Faturas\Invoice\Domain\Invoice\PaymentTerm
