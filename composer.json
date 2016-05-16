@@ -11,15 +11,6 @@
         "meuk/faturas-invoice-lib": "dev-develop",
         "symfony/framework-bundle": "^3.0"
     },
-    "repositories": [
-        {
-            "options": {
-                "symlink": true
-            },
-            "type": "path",
-            "url": "../faturas-invoice-lib"
-        }
-    ],
     "require-dev": {
         "phpunit/phpunit": "^5.3"
     },
