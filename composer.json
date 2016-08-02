@@ -1,5 +1,5 @@
 {
-    "name": "meuk/faturas-invoice-bundle",
+    "name": "faturas/faturas-invoice-bundle",
     "type":         "symfony-bundle",
     "authors": [
         {
@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "meuk/faturas-invoice-lib": "dev-develop",
+        "faturas/faturas-invoice-lib": "dev-develop",
         "symfony/framework-bundle": "^3.0"
     },
     "require-dev": {
